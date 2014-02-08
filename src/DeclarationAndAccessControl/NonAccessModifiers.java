@@ -1,5 +1,5 @@
 
-package DeclarationAndAccessControl_1;
+package DeclarationAndAccessControl;
 
 public class NonAccessModifiers {
     /*
@@ -18,6 +18,22 @@ public class NonAccessModifiers {
             in a subclass, and is often used to enforce the API functionality of a method.
         ! Final Arguments: It can't be modified within the method.
         ! Abstract Classes.
+    */
+    
+    /*
+        Things you can mark as static:
+        ■ Methods
+        ■ Variables
+        ■ A class nested within another class, but not within a method
+        ■ Initialization blocks
+    
+        Things you can't mark as static:
+        ■ Constructors (makes no sense; a constructor is used only to create instances)
+        ■ Classes (unless they are nested)
+        ■ Interfaces
+        ■ Method local inner classes
+        ■ Inner class methods and instance variables
+        ■ Local variables
     */
 }
 

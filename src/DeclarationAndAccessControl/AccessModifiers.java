@@ -1,4 +1,4 @@
-package DeclarationAndAccessControl_1;
+package DeclarationAndAccessControl;
 
 public class AccessModifiers {
     /*

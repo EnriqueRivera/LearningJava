@@ -1,5 +1,5 @@
 
-package DeclarationAndAccessControl_1;
+package DeclarationAndAccessControl;
 
 /*
     Primitives: A primitive can be one of eight types: char, boolean, byte,
@@ -20,11 +20,24 @@ package DeclarationAndAccessControl_1;
         any of the three access modifiers)
     ■ Can be marked final
     ■ Can be marked transient
+    ■ Can be marked volatile
     ■ Cannot be marked abstract
     ■ Cannot be marked synchronized
     ■ Cannot be marked strictfp
     ■ Cannot be marked native
     ■ Cannot be marked static, because then they'd become class variables.
+
+*/
+
+/*
+    Transient Variables:
+    If you mark an instance variable as transient, you're telling the JVM to skip
+    (ignore) this variable when you attempt to serialize the object containing it.
+
+    Volatile Variables:
+    The volatile modifier tells the JVM that a thread accessing the variable must
+    always reconcile its own private copy of the variable with the master copy in
+    memory.
 
 */
 

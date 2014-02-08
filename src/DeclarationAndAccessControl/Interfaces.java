@@ -1,8 +1,7 @@
 
-package DeclarationAndAccessControl_1;
+package DeclarationAndAccessControl;
 
 public interface Interfaces {
-    public final static int A = 9;
     /*
         Think of an interface as a 100-percent abstract class.
     
