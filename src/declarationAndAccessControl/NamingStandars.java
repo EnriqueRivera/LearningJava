@@ -1,5 +1,5 @@
 
-package DeclarationAndAccessControl;
+package declarationAndAccessControl;
 
 public class NamingStandars {
     /*

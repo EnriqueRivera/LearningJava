@@ -1,5 +1,5 @@
 
-package DeclarationAndAccessControl;
+package declarationAndAccessControl;
 
 /*
     A constructor can't have a return type.
