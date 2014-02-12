@@ -1,5 +1,5 @@
 
-package declarationAndAccessControl;
+package c1_declarationAndAccessControl;
 
 /*
     Primitives: A primitive can be one of eight types: char, boolean, byte,

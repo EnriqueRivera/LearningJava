@@ -1,5 +1,5 @@
 
-package declarationAndAccessControl;
+package c1_declarationAndAccessControl;
 
 public class NonAccessModifiers {
     /*

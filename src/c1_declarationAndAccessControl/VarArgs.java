@@ -1,4 +1,4 @@
-package declarationAndAccessControl;
+package c1_declarationAndAccessControl;
 
     /*
         arguments: The things you specify between the parentheses when you're

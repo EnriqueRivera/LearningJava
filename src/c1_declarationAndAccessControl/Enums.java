@@ -1,4 +1,4 @@
-package declarationAndAccessControl;
+package c1_declarationAndAccessControl;
 
 /*
     The key points to remember about enum constructors are
