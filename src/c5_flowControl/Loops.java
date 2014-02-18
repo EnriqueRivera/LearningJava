@@ -27,6 +27,5 @@ public class Loops {
             System.out.println("outer"); // Never prints
         }
         System.out.println("Good-Bye");
-
     }
 }
