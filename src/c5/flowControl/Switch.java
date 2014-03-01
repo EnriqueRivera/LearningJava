@@ -1,4 +1,4 @@
-package c5_flowControl;
+package c5.flowControl;
 
 public class Switch {
 
