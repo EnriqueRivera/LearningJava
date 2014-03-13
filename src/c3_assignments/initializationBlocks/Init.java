@@ -7,7 +7,21 @@ package c3_assignments.initializationBlocks;
     ■ Instance init blocks run after the constructor's call to super().
 */
 
-class Init {
+class InitPapá {
+    static {
+        System.out.println("1st static initPapá");
+    }
+
+    {
+        System.out.println("1st instance initPapá");
+    }
+    
+    InitPapá() {
+        System.out.println("no-arg constPapá");
+    }
+}
+
+class Init extends InitPapá{
 
     Init(int x) {
         System.out.println("1-arg const");
@@ -35,6 +49,6 @@ class Init {
 
     public static void main(String[] args) {
         new Init();
-        new Init(7);
+        //new Init(7);
     }
 }
