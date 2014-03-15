@@ -12,8 +12,10 @@ public class ConvertListToArray {
         }
         Object[] oa = iL.toArray(); // create an Object array
         
-        Integer[] ia2 = {};
-        ia2 = iL.toArray(ia2); // create an Integer array
+        Integer[] ia = {};
+        ia = iL.toArray(ia); // create an Integer array
+        
+        iL.set(0, 123);     //the array and list aren't linked
         
         for (Object o : oa) {
             System.out.print(o + " ");
@@ -21,8 +23,14 @@ public class ConvertListToArray {
         
         System.out.println("");
         
-        for (Integer o : ia2) {
+        for (Integer o : ia) {
             System.out.print(o + " ");
         }
+        
+        System.out.println("-----------------------");
+        
+        Integer a = 128;
+        Integer b = 128;
+        System.out.println(a == b);
     }
 }

@@ -15,6 +15,8 @@ public class ConvertArrayToList {
         list.set(3, "six"); // change List
         arr[1] = "five"; // change array
         
+        //list.add("");     //UnsupportedOperationException
+        
         for (String s : arr) {
             System.out.print(s + " ");
         }
