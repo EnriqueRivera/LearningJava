@@ -5,23 +5,33 @@ package c3_assignments.initializationBlocks;
     ■ Static init blocks run once, when the class is first loaded.
     ■ Instance init blocks run every time a class instance is created.
     ■ Instance init blocks run after the constructor's call to super().
+
+Output:
+1st static initPapa
+1st static init
+2nd static init
+1st instance initPapa
+no-arg constPapa
+1st instance init
+2nd instance init
+no-arg const
 */
 
-class InitPapá {
+class InitPapa {
     static {
-        System.out.println("1st static initPapá");
+        System.out.println("1st static initPapa");
     }
 
     {
-        System.out.println("1st instance initPapá");
+        System.out.println("1st instance initPapa");
     }
     
-    InitPapá() {
-        System.out.println("no-arg constPapá");
+    InitPapa() {
+        System.out.println("no-arg constPapa");
     }
 }
 
-class Init extends InitPapá{
+class Init extends InitPapa {
 
     Init(int x) {
         System.out.println("1-arg const");
